@@ -83,3 +83,6 @@ else if (opr == "append") {
 else if (opr == "mkdir") {
     mkdir();
 }
+else{
+    console.log("invalid operation Use'write','read','delet','append','mkdir'");
+}
